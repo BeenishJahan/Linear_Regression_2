@@ -1,0 +1,6 @@
+# Ignore the local data directory
+data/
+
+# Safety: Ignore any accidental CSV or Zip files
+*.csv
+*.zip
