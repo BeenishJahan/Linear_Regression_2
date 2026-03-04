@@ -19,11 +19,11 @@ A comprehensive machine learning project for predicting loan default risk using 
 
 ## 📊 Results Summary
 
-| Model | ROC-AUC | Precision | Recall | F1-Score | Training Time |
-|-------|---------|-----------|--------|----------|---------------|
-| Logistic Regression | 0.7046 | 0.32 | 0.63 | 0.42 | ~10 seconds |
-| Random Forest | 0.7099 | 0.37 | 0.43 | 0.40 | ~5-10 minutes |
-| **XGBoost** | **0.7171** | **0.32** | **0.67** | **0.43** | ~10-20 minutes |
+| Model | ROC-AUC | Precision | Recall | F1-Score |
+|-------|---------|-----------|--------|----------|
+| Logistic Regression | 0.7046 | 0.32 | 0.63 | 0.42 |
+| Random Forest | 0.7099 | 0.37 | 0.43 | 0.40 |
+| **XGBoost** | **0.7171** | **0.32** | **0.67** | **0.43** |
 
 **Key Achievement:** 1.77% improvement over baseline through ensemble methods
 
@@ -82,10 +82,6 @@ pip install -r requirements.txt
 - Download `accepted_2007_to_2018Q4.csv.gz`
 - Extract and place in `data/` directory
 
-4. **Run the notebook**
-```bash
-jupyter notebook notebooks/credit_risk_analysis.ipynb
-```
 
 ---
 
@@ -161,7 +157,6 @@ jupyter notebook notebooks/credit_risk_analysis.ipynb
 **Evaluation Metrics:**
 - Primary: ROC-AUC (handles imbalanced classes)
 - Secondary: Precision, Recall, F1-Score
-- Not used: Accuracy (misleading with 82/18 split)
 
 ---
 
@@ -225,9 +220,9 @@ jupyter notebook notebooks/credit_risk_analysis.ipynb
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@BeenishJahan](https://github.com/BeenishJahan)
+- LinkedIn: [Beenish Jahan](www.linkedin.com/in/beenishjahan)
+- Email: beenishjahan2003@gmail.com
 
 ---
 
@@ -237,7 +232,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Lending Club for providing the dataset
 - Kaggle community for dataset hosting and discussions
@@ -256,55 +251,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 *Last updated: January 2025*
 ```
-
----
-
-## **ALSO CREATE requirements.txt:**
-```
-numpy==1.24.3
-pandas==2.0.3
-matplotlib==3.7.2
-seaborn==0.12.2
-scikit-learn==1.3.0
-xgboost==2.0.0
-jupyter==1.0.0
-```
-
----
-
-## **AND .gitignore:**
-```
-# Data files
-*.csv
-*.csv.gz
-*.pkl
-data/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Model files
-*.joblib
-*.h5
-models/
