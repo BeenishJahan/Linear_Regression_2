@@ -219,9 +219,9 @@ pip install -r requirements.txt
 
 ## 👤 Author
 
-**Your Name**
+**Beenish Jahan**
 - GitHub: [@BeenishJahan](https://github.com/BeenishJahan)
-- LinkedIn: [Beenish Jahan](www.linkedin.com/in/beenishjahan)
+- LinkedIn: [Beenish Jahan](https://www.linkedin.com/in/beenishjahan)
 - Email: beenishjahan2003@gmail.com
 
 ---
